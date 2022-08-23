@@ -8,9 +8,6 @@ is_vagrant: false
 telegraf_start_service: true
 telegraf_start_delay: 6
 
-# If yes, will overwrite the packaged configuration with an Asnible/jinja2 template
-telegraf_template_configuration: true
-
 # Path for finding Telegraf data. Added for backwards-compatibility.
 telegraf_binary_path: /usr/bin/telegraf
 telegraf_configuration_dir: /etc/telegraf

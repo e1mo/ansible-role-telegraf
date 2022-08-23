@@ -79,3 +79,5 @@ telegraf_plugins_base:
 telegraf_plugins: "{{ telegraf_plugins_base }} + {{ telegraf_plugins_extra | default([]) }}"
 
 telegraf_influxdata_base_url: "https://repos.influxdata.com"
+# If yes, will overwrite the packaged configuration with an Asnible/jinja2 template
+telegraf_template_configuration:  true
